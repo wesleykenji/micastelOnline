@@ -1,17 +1,12 @@
-package modelos;
+package main.java.modelos;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
-
-import modelos.enumeration.TipoTelefone;
-
+import main.java.modelos.enumeration.TipoTelefone;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
+
+import javax.persistence.*;
 
 @Entity
 @Table

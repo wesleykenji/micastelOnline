@@ -1,4 +1,4 @@
-package modelos;
+package main.java.modelos;
 
 import java.util.Date;
 import java.util.List;
@@ -10,6 +10,8 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import main.java.modelos.Cliente;
+import main.java.modelos.Equipamento;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
 import org.hibernate.annotations.Fetch;

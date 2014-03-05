@@ -1,4 +1,4 @@
-package modelos;
+package main.java.modelos;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,6 +7,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import main.java.modelos.Cliente;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 

@@ -1,4 +1,6 @@
-package infra.conexao;
+package main.java.infra.conexao;
+
+import main.java.infra.conexao.Conexao;
 
 import java.sql.Connection;
 import java.sql.SQLException;

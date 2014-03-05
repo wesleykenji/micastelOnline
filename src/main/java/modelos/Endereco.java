@@ -1,10 +1,10 @@
-package modelos;
+package main.java.modelos;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-import modelos.enumeration.TipoEndereco;
+import main.java.modelos.enumeration.TipoEndereco;
 
 @Entity
 @Table

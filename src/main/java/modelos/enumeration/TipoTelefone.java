@@ -1,4 +1,4 @@
-package modelos.enumeration;
+package main.java.modelos.enumeration;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

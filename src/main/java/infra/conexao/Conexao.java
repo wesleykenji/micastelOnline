@@ -1,4 +1,4 @@
-package infra.conexao;
+package main.java.infra.conexao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
